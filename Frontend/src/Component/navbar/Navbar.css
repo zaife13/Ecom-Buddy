@@ -1,0 +1,157 @@
+.navbar-container {
+  width: 100%;
+}
+
+.navbar {
+  align-items: center;
+  padding: 0px 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  /* background-color: rgb(142, 142, 255,0.4); */
+}
+
+.navbar-logo {
+  width: 120px;
+}
+
+.logo-links-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.desktop-navbar-links {
+  color: var(--primary-color-1);
+}
+
+.mobile-navbar-links {
+  display: none;
+}
+
+.desktop-navbar-links ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.desktop-navbar-links ul li a {
+  text-decoration: none;
+  color: var(--primary-color-1);
+  transition: border-color 2s ease-in-out;
+  
+}
+
+.desktop-navbar-links ul li p:hover {
+  cursor: pointer;
+  color: var(--primary-color-2-light);
+  border-bottom: 1px solid;
+
+}
+
+.navbar-btns {
+  display: flex;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+/* .navbar-btns button {
+  padding: 12px 40px;
+  border-radius: 10px;
+  border: none;
+} */
+
+.login-btn {
+  font-size: 16px;
+  font-weight: 600;
+  background: none;
+  color: var(--primary-color-1);
+  cursor: pointer;
+  border: 1px solid var(--primary-color-2);
+}
+.login-btn:hover {
+  background-color: var(--primary-color-2-light);
+  color: white;
+  border-color: var(--primary-color-2-light);
+}
+
+.signup-btn {
+  font-size: 16px;
+  cursor: pointer;
+  background: var(--primary-color-2);
+  color: #fff;
+}
+
+.signup-btn:hover {
+  background: var(--primary-color-2-light);
+}
+.user-info {
+  display: flex;
+  gap: 10px;
+}
+
+@media only screen and (max-width: 950px) {
+  .navbar-logo {
+    width: 100px;
+  }
+
+  .navbar-btns button {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  .desktop-navbar-links ul li a {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-logo {
+    width: 80px;
+  }
+
+  .desktop-navbar-links {
+    display: none;
+  }
+
+  .signup-btn {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .mobile-navbar-links {
+    display: flex;
+    color: var(--primary-color-1);
+    justify-content: center;
+    margin: 20px 0px;
+  }
+
+  .mobile-navbar-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    width: 100%;
+    font-weight: 500;
+  }
+
+  .mobile-navbar-links ul li a {
+    text-decoration: none;
+    color: var(--primary-color-1);
+  }
+
+  .navbar-container {
+    padding: 0px 0px;
+    width: 100vw;
+  }
+
+  .navbar {
+    padding: 0px;
+  }
+}
+
+ul li p {
+  cursor: pointer;
+}

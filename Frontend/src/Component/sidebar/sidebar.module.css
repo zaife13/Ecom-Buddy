@@ -1,0 +1,20 @@
+.sidebarItem {
+  min-height: 48px !important;
+  margin: 10px 10px 14px 10px !important;
+  border-radius: 10px !important;
+}
+
+.sidebarItem:hover {
+  background-color: var(--primary-color-2) !important;
+  color: white !important;
+}
+
+.sidebarItem:hover .sidebarIcon,.sidebarItem:hover .sidebarText {
+  color: white !important;
+}
+
+.sidebarText {
+  font-size: 16px !important;
+  font-family: poppins !important;
+  color: #707070 !important;
+}

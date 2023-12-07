@@ -1,0 +1,169 @@
+.wrapper {
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 40px;
+  margin-bottom: 80px;
+  padding-bottom: 20px;
+  width: 90%;
+}
+
+.Main_header {
+  border: 1px solid rgb(217, 224, 232);
+  border-radius: 5px;
+}
+
+.filterHeader {
+  margin-bottom: 20px;
+}
+
+.dropDownSorting {
+  min-height: 32px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  margin: 0px;
+  text-transform: none;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(43, 57, 72);
+  border-radius: 6px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(103, 132, 162);
+  outline: transparent solid 2px;
+  outline-offset: -2px;
+  transition: box-shadow 0.2s ease 0s, background-color 0.2s ease 0s,
+    border-color 0.2s ease 0s, outline-color 0.2s ease 0s;
+  flex-wrap: nowrap;
+  padding: 5px 12px;
+}
+
+.top_head {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  background-color: rgba(207, 202, 202, 0.712);
+}
+
+#top {
+  font-family: "News Cycle", sans-serif;
+  font-weight: bold;
+}
+
+.item1 {
+  width: 10%;
+  margin-top: 15px;
+  font-family: "News Cycle", sans-serif;
+  font-weight: bold;
+}
+
+.top_head div {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  font-weight: bold;
+  color: rgb(43, 57, 72);
+  user-select: none;
+  background-color: rgb(242, 245, 247);
+}
+
+.item4 {
+  width: 15%;
+  margin-top: 15px;
+  text-align: center;
+  font-family: "News Cycle", sans-serif;
+  font-weight: bold;
+}
+
+.item5 {
+  width: 15%;
+  margin-top: 15px;
+  text-align: center;
+  font-family: "News Cycle", sans-serif;
+  font-weight: bold;
+}
+
+.item6 {
+  width: 15%;
+  margin-top: 15px;
+  text-align: center;
+  font-family: "News Cycle", sans-serif;
+  font-weight: bold;
+}
+
+.item7 {
+  width: 15%;
+  margin-top: 15px;
+  text-align: center;
+  font-family: "News Cycle", sans-serif;
+  font-weight: bold;
+}
+
+.line {
+  width: 3px;
+  height: 100%;
+  transition: background-color 0.2s ease-in-out 0s;
+  background-color: rgb(169, 172, 177);
+}
+
+.top_head1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgb(217, 224, 232);
+  border-top: 1px solid rgb(217, 224, 232);
+  margin-top: 4px;
+}
+
+.top_head1 .section {
+  width: 25%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image1 {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.pics {
+  width: 10px;
+  height: 10px;
+}
+
+.icon1 {
+  width: 15px;
+  height: 15px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.form_check_input {
+  margin-left: 10px;
+  margin-bottom: 45px;
+}
+
+.sub_item {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.icon2 {
+  width: 15px;
+  height: 15px;
+  margin-left: 20px;
+}
+
+.sub_item_head {
+  flex-direction: column;
+  margin-left: 16px;
+}

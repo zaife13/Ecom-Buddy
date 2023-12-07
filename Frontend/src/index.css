@@ -1,0 +1,52 @@
+:root {
+  --primary-color-1: #135863;
+  --primary-color-2: #1c8090;
+  --primary-color-2-light: #29c0d7;
+  --primary-color-2-light-2: #faf1e6;
+  --dark-gray: #3e4e61;
+  --metal: #343a40;
+  --metal-light: #dcdee7;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 1.375;
+  color: var(--metal);
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+/* Allows the MUI grid rows to expand to child height */
+.MuiDataGrid-viewport,
+.MuiDataGrid-row,
+.MuiDataGrid-renderingZone {
+  max-height: fit-content !important;
+}
+
+/* Allows the MUI grid rows to expand to child height */
+.MuiDataGrid-cell {
+  max-height: fit-content !important;
+  overflow: auto;
+  white-space: initial !important;
+  line-height: 16px !important;
+  display: flex !important;
+  align-items: center;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+
+.MuiDataGrid-cell:focus-within,
+.MuiDataGrid-cell:focus {
+  outline: none !important;
+}
+.MuiDataGrid-columnHeader:focus-within,
+.MuiDataGrid-columnHeader:focus {
+  outline: none !important;
+}

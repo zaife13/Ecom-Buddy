@@ -1,0 +1,37 @@
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.card {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border: 1px solid  rgb(217, 224, 232);
+    border-radius: 5px;
+    padding: 1.5rem;
+    width: 95%;
+}
+
+.cardHeader {
+    margin-bottom: 3%;
+    font-size: 1rem;
+}
+
+.cardForm {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+}
+
+.muiTable {
+    margin: 1rem;
+    width: 100%;
+}

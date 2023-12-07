@@ -1,0 +1,268 @@
+p {
+    margin: 0;
+}
+
+.main_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section1 {
+    width: 30%;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.top_image {
+    text-align: center;
+}
+
+.top_image img {
+    height: 70px;
+}
+
+.section2 {
+    box-shadow: 0 3px 10px rgb(72 94 117 / 15%);
+    border-radius: 8px;
+    width: 35%;
+    padding: 2px 3px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.main_form {
+    align-content: center;
+}
+
+.main_form div {
+    margin-bottom: 1rem;
+}
+
+.mainsection {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.loginform {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.loginheading {
+    font-family: 'Poppins', serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+    color: var(--primary-color-2);
+    margin-bottom: 14px;
+    margin-top: 0px;
+}
+
+.input {
+    height: auto;
+    line-height: 1.375;
+    letter-spacing: .46px;
+    padding: 10px 10px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 10px;
+    
+    border: 1px solid #003873;
+    background-clip: padding-box;
+    color: #495057;
+}
+
+.text {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: .5px;
+    line-height: 1.375;
+    color: #646464;
+    margin-bottom: 8px;
+}
+
+.forgot {
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.entername {
+    display: flex;
+    flex-direction: column;
+}
+
+.loginemail {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.loginpassword {
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #6a6c6f;
+    list-style-type: none;
+    text-align: left;
+    padding-left: 0;
+    font-size: 12px;
+}
+
+.form_check_label {
+    font-family: 'Didact Gothic', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+}
+
+.form_check_label a {
+    color: var(--primary-color-1);
+    font-weight: bold;
+}
+
+.btn_primary {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 14px 20px;
+    border-radius: 8px;
+    border-style: none;
+    border-color: var(--primary-color-2);
+    background-color: var(--primary-color-2);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.btn_primary:hover {
+    background-color: #21a8bd;
+}
+
+.bottom_para {
+    font-size: 15px;
+    color: rgba(24, 27, 31, 0.64);
+    letter-spacing: 0.25px;
+    text-align: center;
+}
+
+.bottom_link {
+    text-decoration: none;
+    color: var(--primary-color-2);
+    font-weight: bold;
+}
+
+.section2_imagediv {
+    width: 100%;
+}
+
+.section2_image {
+    background-size: cover;
+    width: 80%;
+    height: 200px;
+    margin-left: 45px;
+    margin-top: 25px;
+}
+
+.main_para {
+    margin: 40px;
+}
+
+.section2_para {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.44;
+    color: var(--primary-color-2);
+    margin: 0 0 16px;
+}
+
+.tp_div {
+    text-align: center;
+    color: var(--primary-color-2);
+    font-size: 1.1rem;
+}
+.tp_div p {
+    margin-bottom: 1rem;
+}
+.tp_icon {
+    padding: 1rem;
+    border-radius: 15px;
+    border: 1px solid;
+    width: 5rem;
+    height: 1.5rem;
+    background-color: #fff;
+
+}
+.tp_icon:hover {
+    background-color: #eee;
+}
+
+@media(max-width:992px) {
+    .section2 {
+        display: none;
+    }
+
+    .section1 {
+        min-width: 40%;
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .loginheading {
+        text-align: center;
+        padding-left: 0%;
+    }
+
+    .input {
+        width: 450px;
+
+    }
+
+    .btn_primary {
+        width: 450px;
+
+    }
+
+    .bottom_para {
+        width: 300px;
+        text-align: center;
+    }
+}
+
+@media(max-width:555px) {
+    .loginheading {
+        text-align: center;
+        padding-left: 0%;
+    }
+
+    .input {
+        width: 300px;
+        align-items: center;
+    }
+
+    .btn_primary {
+        width: 300px;
+        text-align: center;
+    }
+
+    .bottom_para {
+        text-align: center;
+    }
+}

@@ -1,0 +1,27 @@
+.sidebarItem {
+  min-height: 48px !important;
+  margin: 10px 5px 0px 5px !important;
+  border-radius: 10px !important;
+}
+
+.sidebarItem:hover {
+  background-color: var(--primary-color-2) !important;
+  color: white !important;
+}
+
+.sidebarItem:hover .sidebarIcon,.sidebarItem:hover .sidebarText, .sidebarItem:hover .sidebarSubText {
+  color: white !important;
+}
+
+.sidebarText {
+  font-size: 16px !important;
+  font-family: poppins !important;
+  color: #707070 !important;
+}
+
+.sidebarSubText {
+  font-size: 14px !important;
+  font-family: poppins !important;
+  color: #707070 !important;
+  margin-left: -10px !important;
+}

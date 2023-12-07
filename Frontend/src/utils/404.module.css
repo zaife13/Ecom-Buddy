@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+.title {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+.message {
+  font-size: 2rem;
+}
+.link {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+.link:hover {
+    text-decoration: underline;
+
+}
+.link:visited{
+    color: var(--metal);
+    text-decoration: none;
+}

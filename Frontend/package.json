@@ -1,0 +1,67 @@
+{
+  "name": "ecom-buddy",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@aamasri/dialog": "^1.5.2",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.15",
+    "@mui/material": "^5.10.13",
+    "@mui/styles": "^5.10.16",
+    "@mui/system": "^5.11.16",
+    "@mui/x-data-grid": "^5.17.14",
+    "@react-oauth/google": "^0.5.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.1.3",
+    "chart.js": "^4.2.1",
+    "country-list": "^2.3.0",
+    "jwt-decode": "^3.1.2",
+    "react": "^18.0.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-country-flag": "^3.0.2",
+    "react-dom": "^18.0.0",
+    "react-facebook-login": "^4.1.1",
+    "react-hook-form": "^7.43.9",
+    "react-material-ui-carousel": "^3.4.2",
+    "react-router-dom": "^6.4.3",
+    "react-scripts": "5.0.1",
+    "react-shimmer": "^3.2.0",
+    "react-toastify": "^9.1.1",
+    "readmore-js": "^2.2.1",
+    "sass": "^1.56.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "2.2.0",
+    "eslint": "^8.29.0",
+    "prettier": "^2.8.0",
+    "vite": "3.2.7",
+    "vite-plugin-svgr": "0.3.0"
+  }
+}

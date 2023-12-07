@@ -1,0 +1,45 @@
+.supplierBtn{
+    padding: 10px;
+    background-color: white;
+    border: 2px solid #1C8090;
+    color: #1C8090;
+    cursor: pointer;  
+}
+.supplierBtn:hover {
+    background-color: #1C8090;
+    color: #f5f5f5;
+}
+
+.productBtn {
+    padding: 5px;
+    background-color: white;
+    border: 2px solid #343a40;
+    color: #343a40;
+    cursor: pointer;
+    width: 120px;
+}
+
+.productBtn:hover {
+    background-color: #a3a3a356;
+}
+.favBtn  {
+    background-color: rgb(207, 43, 43);
+    color: white;
+    padding: 5px;
+    border: 2px solid rgb(207, 43, 43);
+    cursor: pointer;
+    width: 120px;
+}
+.favBtn2 { 
+    color: rgb(207, 43, 43);
+    border: 2px solid rgb(207, 43, 43);
+    cursor: pointer;
+    width: 120px;
+    padding: 5px;
+    background-color: white;
+}
+
+.favBtn:hover {
+    background-color: rgb(238, 99, 99);
+    border: 2px solid rgb(238, 99, 99);
+}
